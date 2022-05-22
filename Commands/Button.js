@@ -1,4 +1,6 @@
+module.exports = {
 
+  "code": "macro","aliases": [], async run (client,message,args){ 
 const { MessageEmbed, MessageButton, MessageActionRow } = require("discord.js")
 
     const embed = new MessageEmbed()
@@ -36,5 +38,6 @@ const { MessageEmbed, MessageButton, MessageActionRow } = require("discord.js")
     message.channel.send({components: [row], embeds: [embed] });
 
   }
+      }};
 
 }
